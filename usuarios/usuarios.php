@@ -50,7 +50,7 @@ if(!isset($admin_id)){
             echo '        <h3><?= $fetch_profile['name']; ?></h3>';
             echo '        <span><i class="fas fa-code"></i> Diseñador web </span>';
             echo '        <p>Si el cliente es el cliente, el cliente podrá recibir el servicio de atención al cliente. ¡Que huya menos de las necesidades de la vida, y el que odia los tiempos, que los merezca más penas!</p>';
-            echo '        <div class="icons">';
+            echo '        <div class="icons">';                                                                                                     
             echo '            <a href="#" class="fab fa-facebook-f"></a>';
             echo '            <a href="#" class="fab fa-twitter"></a>';
             echo '            <a href="#" class="fab fa-instagram"></a>';
