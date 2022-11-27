@@ -15,7 +15,7 @@
 </head>
 <body>                
 
-    <h1>nuestra sección de equipo</h1>
+    <h1>Usuarios</h1>
 
     <section class="container">
         <?php
