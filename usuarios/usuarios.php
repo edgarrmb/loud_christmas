@@ -43,6 +43,9 @@
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-github"></a>
+                    
+                    <div onclick="toggle()" id="close">✖</div>
+                    
                 </div>
 
             </div>
@@ -52,6 +55,16 @@
             } //fin del bucle de instrucciones
             mysql_free_result($result); //Liberamos los registros
             mysql_close($link); //cerramos la conexion con la base de datos
+        ?>
+        <?php 
+            // $conexion=mysql_connect("localhost","root") or die("Problemas en la conexion");
+            // mysql_select_db("uno", $conexion) or die("Problemas en la selección de la base de datos");
+            // $registros=mysql_query("select nombre from alumnos where nombre='$_REQUEST[nombre]'", $conexion) or die("Problemas en el select:".mysql_error());
+            // if ($reg=mysql_fetch_array($registros)){
+            //     mysql_query("delete from alumnos where nombre='$_REQUEST[nombre]'", $conexion) or die("Problemas en el select:".mysql_error());
+            //     echo "Se efectuó el borrado del alumno con dicho nombre.";
+            // }else{ echo "No existe un alumno con ese nombre.";}
+            // mysql_close($conexion);
         ?>
 
     </section>
