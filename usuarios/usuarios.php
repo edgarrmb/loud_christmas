@@ -44,7 +44,7 @@ if(!isset($admin_id)){
             echo '        <img src="img/bg-image.jpg" alt="">';
             echo '    </div>';
             echo '    <div class="pic">';
-            echo '        <img src="uploaded_img/<?= $fetch_profile['image']; ?>" alt="">';
+            echo "        <img src="uploaded_img/<?= $fetch_profile['image']; ?>" alt="">";
             echo '    </div>';
             echo '    <div class="info">';
             echo '        <h3><?= $fetch_profile['name']; ?></h3>';
