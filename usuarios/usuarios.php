@@ -23,7 +23,7 @@ if(!isset($admin_id)){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style2.css">uhuhuoho
+    <link rel="stylesheet" href="css/style2.css">
     
     <title>Usuarios</title>
 </head>
