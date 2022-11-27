@@ -30,7 +30,7 @@ if(!isset($user_id)){
 </head>
 <body>
 
-<h1 class="title"> <span>perfil</span> usuario </h1>
+<!-- <h1 class="title"> <span>perfil</span> usuario </h1> -->
 
 <section class="profile-container">
 

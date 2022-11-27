@@ -98,7 +98,7 @@ if(isset($_POST['update'])){
    }
 ?>
 
-<h1 class="title"> actualización <span>de perfil</span> </h1>
+<!-- <h1 class="title"> actualización <span>de perfil</span> </h1> -->
 
 <section class="update-profile-container">
 

@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style2.css">
     
     <title>Jugadores</title>
 </head>
 <body>
 
-    <h1>our team section</h1>
+    <h1>Jugadores</h1>
 
     <section class="container">
 
         <div class="card">
             <div class="bg-image">
-                <img src="bg-image.jpg" alt="">
+                <img src="img/bg-image2.jpg" alt="">
             </div>
             <div class="pic">
                 <img src="pic1.jpg" alt="">

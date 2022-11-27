@@ -30,7 +30,7 @@ if(!isset($admin_id)){
 </head>
 <body>
 
-<h1 class="title"> perfil del <span>administrador</span> </h1>
+<!-- <h1 class="title"> perfil del <span>administrador</span> </h1> -->
 
 <section class="profile-container">
 
