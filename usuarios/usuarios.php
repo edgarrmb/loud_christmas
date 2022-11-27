@@ -39,26 +39,7 @@ if(!isset($admin_id)){
         // comienza un bucle que leera todos los registros existentes en la tabla
         while($row = mysql_fetch_array($result)){
             //$row es un array con todos los campos existentes en la tabla
-            echo '<div class="card">';
-            echo '    <div class="bg-image">';
-            echo '        <img src="img/bg-image.jpg" alt="">';
-            echo '    </div>';
-            echo '    <div class="pic">';
-            echo "        <img src="uploaded_img/<?= $fetch_profile['image']; ?>" alt="">";
-            echo '    </div>';
-            echo '    <div class="info">';
-            echo '        <h3><?= $fetch_profile['name']; ?></h3>';
-            echo '        <span><i class="fas fa-code"></i> Diseñador web </span>';
-            echo '        <p>Si el cliente es el cliente, el cliente podrá recibir el servicio de atención al cliente. ¡Que huya menos de las necesidades de la vida, y el que odia los tiempos, que los merezca más penas!</p>';
-            echo '        <div class="icons">';                                                                                                     
-            echo '            <a href="#" class="fab fa-facebook-f"></a>';
-            echo '            <a href="#" class="fab fa-twitter"></a>';
-            echo '            <a href="#" class="fab fa-instagram"></a>';
-            echo '            <a href="#" class="fab fa-github"></a>';
-            echo '        </div>';
-
-            echo '    </div>';
-            echo '</div>';
+            
         } //fin del bucle de instrucciones
         mysql_free_result($result); //Liberamos los registros
         mysql_close($link); //cerramos la conexion con la base de datos
