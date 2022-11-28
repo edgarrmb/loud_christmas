@@ -29,7 +29,7 @@
 
         <div class="card">
             <div class="bg-image">
-                <img src="img/bg-image.jpg" alt="">
+                <img src="img/users.jpg" alt="">
             </div>
             <div class="pic">
                 <img src="uploaded_img/<?= $row['image']; ?>" alt="">

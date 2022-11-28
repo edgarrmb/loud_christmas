@@ -11,34 +11,51 @@
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style2.css">
     
-    <title>Jugadores</title>
+    <title>Usuarios</title>
 </head>
-<body>
+<body>                
 
-    <h1>Jugadores</h1>
+    <h1>Usuarios</h1>
 
     <section class="container">
+        <?php
+            $link = mysql_connect("localhost", "root");
+            mysql_select_db("loud_christmas", $link);
+            $result = mysql_query("SELECT * from jugadores ORDER BY id", $link);
+            // comienza un bucle que leera todos los registros existentes en la tabla
+            while($row = mysql_fetch_array($result)){
+                //$row es un array con todos los campos existentes en la tabla
+        ?>
 
         <div class="card">
             <div class="bg-image">
-                <img src="img/bg-image2.jpg" alt="">
+                <img src="img/jugadores.jpg" alt="">
             </div>
             <div class="pic">
-                <img src="pic1.jpg" alt="">
+                <img src="img/player.png" alt="">
             </div>
             <div class="info">
-                <h3>someone's name</h3>
-                <span><i class="fas fa-code"></i> web designer </span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quidem fugiat vitae necessittibus quaerat qui tempora odio, eum dignissimos doloribus!</p>
+                <h3><?= $row['email']; ?></h3>
+                <span><i class="fas fa-code"></i> jugador</span>
+                <p>Si el cliente es el cliente, el cliente podrá recibir el servicio de atención al cliente. ¡Que huya menos de las necesidades de la vida, y el que odia los tiempos, que los merezca más penas!</p>
                 <div class="icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-github"></a>
+                    
+                    <div onclick="toggle()" id="close">✖</div>
+
                 </div>
 
             </div>
         </div>
+
+        <?php
+            } //fin del bucle de instrucciones
+            mysql_free_result($result); //Liberamos los registros
+            mysql_close($link); //cerramos la conexion con la base de datos
+        ?>
 
     </section>
     
