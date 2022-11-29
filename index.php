@@ -8,5 +8,7 @@
 </head>
 <body>
 
+<a href="usuarios/login.php">USUARIO</a><a href="jugadores/login_form.php">JUGADOR</a>
+
 </body>
 </html>  
