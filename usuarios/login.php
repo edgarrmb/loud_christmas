@@ -52,9 +52,12 @@ if(isset($_POST['submit'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
+<a href="../index.php" target="_blank" class="cerrar">X</a>
 
 <?php
    if(isset($message)){
@@ -68,9 +71,11 @@ if(isset($_POST['submit'])){
       }
    }
 ?>
+
    
 <section class="form-container">
-
+   
+   
    <form action="" method="post" enctype="multipart/form-data">
       <h3>Inicia sesión ahora</h3>
       <input type="email" required placeholder="Introduce tu correo electrónico" class="box" name="email">
