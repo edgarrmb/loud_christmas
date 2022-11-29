@@ -44,7 +44,14 @@
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-github"></a>
                     
-                    <div onclick="toggle()" id="close">✖</div>
+                    <?php
+                    
+                        $id = $row['id'];
+                        $usuarios = "SELECT * FROM usuarios WHERE id = '$id'";
+                    
+                    ?>
+
+                    <div onclick="toggle()" id="close"><a href="borrar.php?id=<?php echo $row["id"];?>">✖</a></div>
 
                 </div>
 

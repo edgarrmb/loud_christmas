@@ -43,9 +43,16 @@
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-github"></a>
-                    
-                    <div onclick="toggle()" id="close">✖</div>
 
+                    <?php
+                    
+                        $id = $row['id'];
+                        $usuarios = "SELECT * FROM jugadores WHERE id = '$id'";
+                    
+                    ?>
+
+                    <div onclick="toggle()" id="close"><a href="borrar2.php?id=<?php echo $row["id"];?>">✖</a></div>
+                    
                 </div>
 
             </div>
