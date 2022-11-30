@@ -13,7 +13,9 @@
     
     <title>Usuarios</title>
 </head>
-<body>                
+<body>
+
+    <a href="admin_page.php" class="regresar">🔺</a>
 
     <h1>Usuarios</h1>
 

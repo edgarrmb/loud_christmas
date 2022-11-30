@@ -52,28 +52,28 @@ if(isset($_POST['submit'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style2.css">
 
 </head>
 <body>
 
-<a href="../index.php" target="_blank" class="cerrar">X</a>
-
-<?php
+   
+   <?php
    if(isset($message)){
       foreach($message as $message){
          echo '
          <div class="message">
-            <span>'.$message.'</span>
-            <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+         <span>'.$message.'</span>
+         <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
          </div>
          ';
       }
    }
-?>
+   ?>
 
-   
+
 <section class="form-container">
+   <a href="../index.php" class="cerrar">✖️</a>
    
    
    <form action="" method="post" enctype="multipart/form-data">

@@ -33,10 +33,13 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar sesión</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../usuarios/css/style2.css">
 </head>
 <body>
     
 <div class="form-container">
+   <a href="../index.php" class="cerrar2">✖️</a>
+
 
     <form action="" method="post">
         <h3 class="title">Inicia sesión ahora</h3>

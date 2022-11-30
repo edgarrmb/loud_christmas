@@ -56,6 +56,7 @@ if(isset($_POST['submit'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style2.css">
 
 </head>
 <body>
@@ -76,6 +77,7 @@ if(isset($_POST['submit'])){
 ?>
    
 <section class="form-container">
+   <a href="login.php" class="close">✖️</a>
 
    <form action="" method="post" enctype="multipart/form-data">
       <h3>Regístrate ahora</h3>

@@ -13,7 +13,9 @@
     
     <title>Usuarios</title>
 </head>
-<body>                
+<body>          
+    
+    <a href="admin_page.php" class="regresar">🔺</a>
 
     <h1>Usuarios</h1>
 
@@ -36,7 +38,7 @@
             </div>
             <div class="info">
                 <h3><?= $row['email']; ?></h3>
-                <span><i class="fas fa-code"></i> jugador</span>
+                <span><i>🎮</i> jugador</span>
                 <p>Si el cliente es el cliente, el cliente podrá recibir el servicio de atención al cliente. ¡Que huya menos de las necesidades de la vida, y el que odia los tiempos, que los merezca más penas!</p>
                 <div class="icons">
                     <a href="#" class="fab fa-facebook-f"></a>
