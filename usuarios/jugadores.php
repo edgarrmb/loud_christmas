@@ -17,7 +17,7 @@
     
     <a href="admin_page.php" class="regresar">🔺</a>
 
-    <h1>Usuarios</h1>
+    <h1>Jugadores</h1>
 
     <section class="container">
         <?php
