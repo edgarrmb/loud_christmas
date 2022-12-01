@@ -21,10 +21,10 @@ body{
     background: #333;
 }
 
-h1{
+h2{
     font-size: 40px;
     margin-top: 20px;
-    color: #e74c3c;
+    color: #f0f0f0;
     text-align: center;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
