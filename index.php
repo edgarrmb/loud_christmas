@@ -28,8 +28,8 @@
     <a href="#" class="logo"> <span>Loud</span> Christmas </a>
 
     <nav class="navbar">
-        <a href="#user">Usuario</a>
-        <a href="#player">Jugador</a>
+        <a href="#user"><i>🕹️</i> Usuario</a>
+        <a href="#player"><i>🎮</i> Jugador</a>
     </nav>
 
     <div class="follow">
